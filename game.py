@@ -51,7 +51,7 @@ def restart_game():
     label.config(text=f"🔁 Player {current_player}'s Turn")
     restart_button.grid_remove()
 
-# === GUI Setup ===
+
 root = tk.Tk()
 root.title("Tic-Tac-Toe")
 root.configure(bg="#f0f0f0")
@@ -80,7 +80,7 @@ restart_button = tk.Button(
 restart_button.grid(row=4, column=0, columnspan=3, pady=10)
 restart_button.grid_remove()
 
-# === Game State ===
+
 current_player = "X"
 winner = False
 
